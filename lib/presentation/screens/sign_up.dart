@@ -5,14 +5,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../core/services/auth_services.dart';
 import 'log_in_screen.dart';
 
-class homeScreen extends StatefulWidget {
-  const homeScreen({super.key});
+class signUp extends StatefulWidget {
+  const signUp({super.key});
 
   @override
-  State<homeScreen> createState() => _homeScreenState();
+  State<signUp> createState() => _signUpState();
 }
 
-class _homeScreenState extends State<homeScreen> {
+class _signUpState extends State<signUp> {
   final formkey = GlobalKey<FormState>();
   final nameController = TextEditingController();
   final emailController = TextEditingController();
